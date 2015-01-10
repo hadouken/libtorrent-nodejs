@@ -1,13 +1,13 @@
 {
     "name" : "hdkn-libtorrent",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "author" : { "name": "Viktor Elofsson", "email": "viktor@viktorelofsson.se" },
     "description" :"Bindings for libtorrent-rasterbar.",
     "repository"   :  {
        "type" : "git",
        "url"  : "https://github.com/hadouken/libtorrent-nodejs.git"
     },
-    "main": "./index.js",
+    "main": "./libtorrent.js",
     "binary": {
         "module_name" : "libtorrent",
         "module_path" : "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
