@@ -13,7 +13,7 @@
         "module_path" : "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
         "remote_path" : "./{module_name}/v{version}/{configuration}/",
         "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-        "host"        : "https://hadouken.s3-website-us-east-1.amazonaws.com"
+        "host"        : "https://hadouken.s3.amazonaws.com"
     },
     "dependencies"  : {
       "node-pre-gyp": "0.5.x"
